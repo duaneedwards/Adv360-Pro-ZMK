@@ -18,6 +18,13 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+/* Increase the default debouncing by 2x, to reduce key doubling
+ * https://zmk.dev/docs/features/debouncing#global-options
+ * https://www.reddit.com/r/kinesisadvantage/comments/xnexxb/a360_pro_key_doubling_zmk_debounce/
+ */
+CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
+CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
+
 / {
   behaviors {
     #include "macros.dtsi"
