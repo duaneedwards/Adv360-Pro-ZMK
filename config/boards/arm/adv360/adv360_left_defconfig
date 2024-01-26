@@ -72,3 +72,10 @@ CONFIG_ZMK_BLE_PASSKEY_ENTRY=n
 CONFIG_ZMK_BLE=y
 CONFIG_ZMK_USB=y
 CONFIG_ZMK_HID_INDICATORS=y
+
+# Increase the default debouncing by 2x, to reduce key doubling
+# https://zmk.dev/docs/features/debouncing#global-options
+# https://github.com/zchee/Adv360-Pro-ZMK/blob/c5d03db28753e2c56170c00a43f854908b00e724/config/boards/arm/adv360/adv360_left_defconfig#L69
+# https://www.reddit.com/r/kinesisadvantage/comments/xnexxb/a360_pro_key_doubling_zmk_debounce/
+CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
+CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
