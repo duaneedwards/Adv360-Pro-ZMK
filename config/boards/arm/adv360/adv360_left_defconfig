@@ -77,5 +77,5 @@ CONFIG_ZMK_HID_INDICATORS=y
 # https://zmk.dev/docs/features/debouncing#global-options
 # https://github.com/zchee/Adv360-Pro-ZMK/blob/c5d03db28753e2c56170c00a43f854908b00e724/config/boards/arm/adv360/adv360_left_defconfig#L69
 # https://www.reddit.com/r/kinesisadvantage/comments/xnexxb/a360_pro_key_doubling_zmk_debounce/
-# CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
-# CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
+CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
+CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
