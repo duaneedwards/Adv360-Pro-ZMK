@@ -1,77 +1,9 @@
 [
 	{
 		"names": [
-			"LC(LA(LS(LG))"
-		],
-		"description": "LC(LA(LS(LG))",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
-			"LC(LA(LS(LG)))"
-		],
-		"description": "LC(LA(LS(LG)))",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
-			"HYPER"
-		],
-		"description": "HYPER",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
 			"LG(LS(LA(LCTRL)))"
 		],
-		"description": "LG(LS(LA(LCTRL)))",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
-			"LG(LS(LA(LCTRL))"
-		],
-		"description": "LG(LS(LA(LCTRL))",
+		"description": "HYPER LG(LS(LA(LCTRL)))",
 		"clarify": false,
 		"documentation": "",
 		"os": {
@@ -88,7 +20,7 @@
 		"names": [
 			"LS(LA(LCTRL))"
 		],
-		"description": "LS(LA(LCTRL))",
+		"description": "MEH LS(LA(LCTRL))",
 		"clarify": false,
 		"documentation": "",
 		"os": {
